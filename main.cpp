@@ -1,9 +1,14 @@
 #include <iostream>
+#include "sum.h"
 
 using namespace std;
 
-int main(int argc, char *argv[])
+int main()
 {
-    cout << "Hello World!" << endl;
+    int a;
+    cin >> a;
+    cout << "Rst : "<< sum(a) <<endl;
     return 0;
 }
+
+
